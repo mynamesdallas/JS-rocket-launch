@@ -28,6 +28,8 @@ var changeState = function (state) {
                 changeState(4);
             } else {
                 changeState(5);
+            } if (state == 5) {
+                changeState(1);
             }
 
         }, 2000);
